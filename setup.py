@@ -30,7 +30,7 @@ setup(
     packages=find_packages(include=[name, f'{name}.*']),
 
     python_requires='>=3.7, <4',
-    install_requires=["pillow>=9.2, <10"],
+    install_requires=["pillow"],
 
     description="Command line utility for converting images to seamless tiles.",
     long_description=readme,
